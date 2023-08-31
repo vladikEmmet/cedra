@@ -1,0 +1,12 @@
+.mainscreen__section {
+    height: calc(100vh - $headerHeight);
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: auto;
+    }
+}

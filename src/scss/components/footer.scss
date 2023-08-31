@@ -1,0 +1,21 @@
+.footer {
+  padding: 80px 0 40px;
+
+  .footer__address_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  // .footer__container
+  &__container {
+    display: flex;
+    align-items: center;
+
+    @include media-mx(510) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+}
