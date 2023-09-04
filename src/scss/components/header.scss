@@ -9,6 +9,10 @@
     justify-content: space-between;
     align-items: center;
     height: $headerHeight;
+
+    @media only screen and (max-width: 767px) {
+      height: 50px;
+    }
   }
 
   .header-is-sticky & {
@@ -26,6 +30,16 @@
     }
   }
 
+  .header__logo {
+    width: 6.6em;
+    height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
   .menu__list {
     display: flex;
     align-items: center;
@@ -39,6 +53,11 @@
       &:hover {
         text-decoration: underline;
       }
+    }
+
+    @media only screen and (max-width: 575px) {
+      flex-direction: column;
+      gap: 0;
     }
   }
 }

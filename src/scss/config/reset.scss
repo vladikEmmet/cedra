@@ -55,6 +55,22 @@ body {
   text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    font-size: 28px;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    font-size: 24px;
+  }
+
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    font-size: 20px;
+  }
+
+  @media only screen and (max-width: 575px) {
+    font-size: 16px;
+  }
 }
 
 input,

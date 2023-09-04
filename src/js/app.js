@@ -6,7 +6,7 @@
 
  * Если мы хотим добавить модуль следует его раскомментировать
  */
-// import MousePRLX from './libs/parallaxMouse'
+// import MousePRLX from './libs/parallaxMouse';
 // import AOS from 'aos'
 // import Swiper, { Navigation, Pagination } from 'swiper';
 
@@ -36,7 +36,7 @@ new PopupManager();
  *  Библиотека для анимаций
  *  документация: https://michalsnik.github.io/aos
  * */
-// AOS.init();
+AOS.init();
 
 /**
  * Параллакс мышей
